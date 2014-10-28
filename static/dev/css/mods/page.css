@@ -13,6 +13,11 @@
 	bottom: 15px;
 	width: 100%;
 }
+.icon-down-wrap .content {
+	max-width: 320px;
+	position: relative;
+	margin: 0 auto;
+}
 .icon-down-wrap .icon-down {
 	width: 29px;
 	height: 29px;
@@ -134,7 +139,7 @@
 	height: 82px;
 	background: transparent url(../../images/icon-lips.png) no-repeat center;
 	background-size: contain;
-	margin-bottom: 10%;
+	margin-bottom: 30%;
 }
 .page4-wrap .icon-see {
 	width: 100%;
