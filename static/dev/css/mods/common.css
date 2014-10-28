@@ -6,9 +6,9 @@
 /*
  * 布局
  */
-/*body {
-	background: -webkit-linear-gradient(top, #E24D5B, #EA343D);
-}*/
+body {
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*
  * 通用
