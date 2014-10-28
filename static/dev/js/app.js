@@ -21,6 +21,9 @@ var mainSwiper = $('#main-swiper-container').swiper({
 	loop: false,
 	// 初始化
 	onFirstInit: function(swiper){
+		// 初始化完成后显示主界面
+		elMainSwiperContainer.css('visibility', 'visible');
+
 		// 第一页添加动画样式
 		var node = $($('[data-role="page-wrap"]')[0]);
 		node.addClass('ani-box');
